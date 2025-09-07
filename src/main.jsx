@@ -4,7 +4,7 @@ import "./index.css";
 import { ClerkProvider } from "@clerk/clerk-react";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { treeRoute } from "./routes/rootRoute.js";
-const clerk_key = import.meta.env.VITE_CLERK_KEY;
+const clerk_key = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 if (!clerk_key) {
   throw new Error("Missing the key");
 }
