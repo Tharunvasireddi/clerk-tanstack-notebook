@@ -8,6 +8,7 @@ const Register = () => {
   const navigate = useNavigate();
   const { isLoaded, signUp, setActive } = useSignUp();
 
+  console.log("hi hello this is regiserpage");
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
